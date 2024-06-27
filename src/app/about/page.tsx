@@ -1,13 +1,13 @@
 import { TransitionLink } from "@/components/TransitionLink";
 
-const Home = () => {
+const About = () => {
   return (
     <main className="flex h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-5xl">HOME PAGE</h1>
+      <h1 className="text-5xl">ABOUT PAGE</h1>
 
-      <TransitionLink href="/about" label="Go to about" />
+      <TransitionLink href="/" label="Go to home" />
     </main>
   );
 };
 
-export default Home;
+export default About;
